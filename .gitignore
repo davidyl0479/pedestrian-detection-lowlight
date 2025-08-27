@@ -110,13 +110,7 @@ weights/
 *.weights
 *.bin
 
-# Image files (but keep result structure)
-*.png
-*.jpg
-*.jpeg
-*.bmp
-*.tiff
-*.gif
+# Image files (allow docs assets)
 !docs/assets/*.png
 !docs/assets/*.jpg
 
@@ -147,7 +141,6 @@ Thumbs.db
 .nv_cache
 
 # Large result files
-*.csv
 *.zip
 *.tar.gz
 *.rar
