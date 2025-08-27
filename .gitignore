@@ -173,3 +173,6 @@ results/images/train.json
 results/images/train_size.json
 results/images/val.json
 results/images/val_size.json
+
+# Exclude strata results
+results/strata/
