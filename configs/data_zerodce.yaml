@@ -1,0 +1,8 @@
+path: .
+train: index/train_mixed_zerodce.txt
+val:   index/val_internal_zerodce.txt
+test:  index/test_all_zerodce.txt
+names:
+  0: pedestrian
+  1: bicycledriver
+  2: motorbikedriver

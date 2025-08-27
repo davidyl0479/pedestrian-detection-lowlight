@@ -1,0 +1,178 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+.webassets-cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Specific notebooks to exclude
+notebooks/01_data_exploration.ipynb
+notebooks/02_lowlight_enhancement_assessment.ipynb
+notebooks/Lowlightanalysis.ipynb
+notebooks/yolo_application_and_enhancements.ipynb
+
+# IPython
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Data directories (these can be large)
+data/
+
+# Model files and checkpoints (can be large)
+weights/
+*.pt
+*.pth
+*.onnx
+*.pb
+*.h5
+*.weights
+*.bin
+
+# Results and outputs
+results/images/
+results/metrics/
+results/reports/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.gif
+!docs/assets/*.png
+!docs/assets/*.jpg
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# TensorBoard logs
+runs/
+logs/
+
+# CUDA cache
+.nv_cache
+
+# Large result files
+*.csv
+*.zip
+*.tar.gz
+*.rar
+!requirements.txt
+
+# Config files with sensitive information
+*.secret
+*.private
+local_config.yaml
+
+# Specific source directories to exclude
+src/lowlight_assessment/
+
+# Large dataset files
+*.hdf5
+*.h5
+*.npy
+*.npz
+
+# Additional cache and runtime files
+*.cache
+images.cache

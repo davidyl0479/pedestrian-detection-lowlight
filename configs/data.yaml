@@ -1,0 +1,8 @@
+path: .
+train: index/train_mixed.txt
+val: index/val_internal.txt
+test: index/test_all.txt
+names:
+  0: pedestrian
+  1: bicycledriver
+  2: motorbikedriver
