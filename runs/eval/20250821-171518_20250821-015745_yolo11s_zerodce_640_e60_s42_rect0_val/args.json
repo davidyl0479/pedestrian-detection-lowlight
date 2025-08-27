@@ -1,0 +1,13 @@
+{
+  "cmd": "val",
+  "data": "configs\\data_zerodce.yaml",
+  "model": "C:\\pedestrian_detection_lowlight\\runs\\train\\20250821-015745_yolo11s_zerodce_640_e60_s42_rect0\\train\\weights\\best.pt",
+  "imgsz": 640,
+  "device": 0,
+  "workers": 8,
+  "conf": 0.001,
+  "iou": 0.5,
+  "max_det": 300,
+  "agnostic_nms": false,
+  "seed": 42
+}

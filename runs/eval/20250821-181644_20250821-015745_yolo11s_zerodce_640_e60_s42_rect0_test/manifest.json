@@ -1,0 +1,13 @@
+{
+  "eval_dir": "runs\\eval\\20250821-181644_20250821-015745_yolo11s_zerodce_640_e60_s42_rect0_test\\test",
+  "model": "C:\\pedestrian_detection_lowlight\\runs\\train\\20250821-015745_yolo11s_zerodce_640_e60_s42_rect0\\train\\weights\\best.pt",
+  "split": "test",
+  "predictions_json": "runs\\eval\\20250821-181644_20250821-015745_yolo11s_zerodce_640_e60_s42_rect0_test\\test\\predictions.json",
+  "results_csv": "runs\\eval\\20250821-181644_20250821-015745_yolo11s_zerodce_640_e60_s42_rect0_test\\test\\results.csv",
+  "nms": {
+    "conf": 0.001,
+    "iou": 0.5,
+    "max_det": 300,
+    "agnostic_nms": false
+  }
+}

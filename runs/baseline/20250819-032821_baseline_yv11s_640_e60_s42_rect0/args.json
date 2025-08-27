@@ -1,0 +1,13 @@
+{
+  "cmd": "train",
+  "data": "configs\\data.yaml",
+  "weights": "yolo11s.pt",
+  "epochs": 60,
+  "imgsz": 640,
+  "batch": 16,
+  "workers": 4,
+  "device": "0",
+  "seed": 42,
+  "rect": false,
+  "skip_preflight": true
+}

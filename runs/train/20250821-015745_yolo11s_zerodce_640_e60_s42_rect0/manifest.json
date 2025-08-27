@@ -1,0 +1,5 @@
+{
+  "train_dir": "runs\\train\\20250821-015745_yolo11s_zerodce_640_e60_s42_rect0\\train",
+  "best": "runs\\train\\20250821-015745_yolo11s_zerodce_640_e60_s42_rect0\\train\\weights\\best.pt",
+  "last": "runs\\train\\20250821-015745_yolo11s_zerodce_640_e60_s42_rect0\\train\\weights\\last.pt"
+}

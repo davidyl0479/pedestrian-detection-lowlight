@@ -1,0 +1,20 @@
+# Repro
+seed: 42
+amp: true
+rect: true
+
+# Training
+imgsz: 640
+epochs: 100
+patience: 20
+batch: auto
+workers: 8
+
+# Augmentations (clarity-first; keep fixed across all runs)
+hsv_h: 0.0
+hsv_s: 0.0
+hsv_v: 0.0
+mosaic: 0.0
+mixup: 0.0
+fliplr: 0.5
+scale: 0.5

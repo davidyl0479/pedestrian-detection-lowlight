@@ -110,10 +110,7 @@ weights/
 *.weights
 *.bin
 
-# Results and outputs
-results/images/
-results/metrics/
-results/reports/
+# Image files (but keep result structure)
 *.png
 *.jpg
 *.jpeg
@@ -145,9 +142,6 @@ Thumbs.db
 ehthumbs.db
 Thumbs.db
 
-# TensorBoard logs
-runs/
-logs/
 
 # CUDA cache
 .nv_cache
@@ -176,3 +170,11 @@ src/lowlight_assessment/
 # Additional cache and runtime files
 *.cache
 images.cache
+
+# Exclude specific evaluation label directories
+runs/eval/*/test/labels/
+runs/eval/*/val/labels/
+
+# Exclude large result files
+results/images/train.json
+results/images/train_size.json
