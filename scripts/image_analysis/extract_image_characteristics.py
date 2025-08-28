@@ -110,7 +110,7 @@ def calculate_all_metrics_gpu(image_path):
     # Basic metrics
     mean_intensity = float(cp.mean(gray_gpu))
     std_intensity = float(cp.std(gray_gpu))
-    weber_contrast = std_intensity / (mean_intensity + 1e-8)
+    rms_contrast = std_intensity / (mean_intensity + 1e-8)
     
     # Sobel edge density
     sobel_x = gpu_ndimage.sobel(gray_gpu, axis=1)
@@ -132,7 +132,7 @@ def calculate_all_metrics_gpu(image_path):
     cp.get_default_memory_pool().free_all_blocks()
     
     return {
-        'weber_contrast': weber_contrast,
+        'rms_contrast': rms_contrast,
         'edge_density': edge_density,
         'wavelet_mad_db1': wavelet_mad['db1'],
         'wavelet_mad_db4': wavelet_mad['db4'], 

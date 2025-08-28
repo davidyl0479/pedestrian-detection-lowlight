@@ -287,7 +287,7 @@ def main():
     else:
         args.ap_cat_ids = None
 
-    # Parse summary features (e.g., "luma,weber_contrast,laplacian_score")
+    # Parse summary features (e.g., "luma,rms_contrast,laplacian_score")
     summary_feats = (
         [s.strip() for s in str(args.summary_features).split(",")]
         if args.summary_features

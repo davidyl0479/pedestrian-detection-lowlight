@@ -551,13 +551,13 @@ def cmd_tuning(args: argparse.Namespace) -> None:
         metrics = load_metrics_jsons([Path(p) for p in args.metrics_file])
         pos_bounds = {
             "luma": (args.pos_luma_min, args.pos_luma_max),
-            "weber_contrast": (args.pos_contrast_min, args.pos_contrast_max),
+            "rms_contrast": (args.pos_contrast_min, args.pos_contrast_max),
             "edge_density": (args.pos_edge_min, args.pos_edge_max),
             "wavelet_mad_db1": (args.pos_noise_min, args.pos_noise_max),
         }
         neg_bounds = {
             "luma": (args.neg_luma_min, args.neg_luma_max),
-            "weber_contrast": (args.neg_contrast_min, args.neg_contrast_max),
+            "rms_contrast": (args.neg_contrast_min, args.neg_contrast_max),
             "edge_density": (args.neg_edge_min, args.neg_edge_max),
             "wavelet_mad_db1": (args.neg_noise_min, args.neg_noise_max),
         }

@@ -176,3 +176,6 @@ results/images/val_size.json
 
 # Exclude strata results
 results/strata/
+
+# Claude Code directory
+.claude/
